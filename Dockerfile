@@ -1,4 +1,4 @@
-FROM nginx:1.11.12-alpine
+FROM nginx:1.12.0-alpine
 
 RUN apk add --update nginx && rm -rf /var/cache/apk/*
 RUN mkdir -p /tmp/nginx/client-body

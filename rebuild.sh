@@ -1,4 +1,3 @@
 #!/bin/bash
 
-docker build -t irvui/alpine-nginx:latest .
-docker push irvui/alpine-nginx:latest
+docker build -t danielscholl/alpine-nginx:1.12.0 .
